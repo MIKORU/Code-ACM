@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main( )
+{
+    int i;
+    double Tmp, Sum;
+    Sum = 0.0;
+    for (i=0; i<12; i++)
+    {
+        scanf("%lf", &Tmp);
+        Sum += Tmp;
+    }
+    printf("$%.2lf\n", Sum / 12);
+    return 0;
+}
